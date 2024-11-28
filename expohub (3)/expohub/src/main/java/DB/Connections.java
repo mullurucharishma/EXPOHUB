@@ -12,7 +12,7 @@ public class Connections {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("class loaded successfully");
             Connection connection= DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            System.out.println("connection established successfully");
+            System.out.println("connection is established successfully");
             return connection;
         } catch (Exception e) {
             System.out.println("class not found");
